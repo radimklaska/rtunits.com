@@ -1,0 +1,89 @@
+@import "api.css";
+
+@media screen, projection {
+
+	html,body,div,ul,ol,li,dl,dt,dd,h1,h2,h3,h4,h5,h6,pre,form,p,blockquote,fieldset,input { margin: 0; padding: 0; }
+	h1,h2,h3,h4,h5,h6,pre,code,address,caption,cite,code,em,strong,th { font-size: 1em; font-weight: normal; font-style: normal; line-height:150%}
+	ul,ol { list-style: none; }
+	fieldset,img { border: none; }
+	caption,th { text-align: left; }
+	table { border-collapse: collapse; border-spacing: 0; }
+
+	body,textarea,input { font: 12px/18px "Lucida Grande", Geneva, Arial, Verdana, sans-serif; background-color:#fff; color:#333; }
+	small {font: 11px "Lucida Grande", Geneva, Arial, Verdana, sans-serif}
+	a { color: #bb0000; text-decoration: underline;}
+	a:hover { text-decoration:none; }
+	strong, b { font-weight:bold; }
+	em, i { font-style:italic; }
+	sup { padding-left:1px; font-size:10px !important; font-weight:normal !important; vertical-align: baseline; position: relative; bottom: 0.33em; color:#76797c; _position:static !important; }
+	h1,h2,h3,h4,h5,h6,p,ul,pre {margin:0 1px .5em 0; display:block}
+	h1 {font-size:2em}
+	h2 {font-size:1.5em}
+	h3 {font-size:1.3em}	
+	hr {margin:1em}
+	ul,ol {margin:0 0 0.5em 2em}
+	ul {list-style:square}
+	ol {list-style:decimal}
+	li ul, li ol {margin-bottom:0}
+	label {width:130px; display:block; font-weight:bold; float:left}	
+	
+	dl, dt, dd {background:none; margin:0; padding:0; text-align:left}
+	dl {margin:0 0 0 0;}
+	dd img { margin: 0px; padding: 0px;} 	
+	
+	table {background: white; border: 0px solid #aaa; border-width: 2px 0; border-collapse: collapse; margin: 0 0 1em 0; font-size: 100%; width: 100%}
+	table th, table td { border: 1px solid #aaa;  border-style: solid ; border-left-color: #aaa; border-right-color: #aaa; padding: 3px 3px}
+	table th, table tfoot th {background: #555; color:#fff}
+	table tbody th {text-align:left}
+	table td {border-color: #aaa}
+	table tr.even td {background: #ddd}
+	pre, code {font-size: 92%; font-family: "Lucida Console", monospaced}
+	pre {background:#E8F6FD; padding:5px; font-size:110%}
+	textarea {width:99%}
+	input {border:1px solid #333}
+
+	.inl * {display:inline !important}		
+	.noscreen, .dn {display:none !important}
+	.fl {float:left}
+	.fr {float:right}
+	.cb, .clear {clear:both}
+	.invisible {clear: both; border: none; visibility: hidden; margin: -1px 0 0 0; padding: 0; height: 1px;} 
+	.cl {clear:left}
+	.cr {clear:right}
+	.tr {text-align:right}
+	.tc {text-align:center !important}
+	.line {line-height:24px; margin:0 0 3px 0; clear:both}	
+	.line * {line-height:24px}
+	.line input, .line select {margin:2px 0 2px 0}
+	.search-result {background:#aaa}
+	.clearer { clear: both; display: block; margin: 0; padding: 0; height: 0; line-height: 1px; font-size: 1px; }
+	.banner {background:#fff}		
+	.path {list-style:none; margin:0 1em; line-height:35px; height:35px; color:#fff}	
+	.path ul {display:inline; margin:0; padding:0 0 0 1em}
+	.path li {display:inline; background:none; margin:0; padding:0 1em 0 0}
+	.path li a {color:#fff}
+	.path .article {display:none}
+	.image img {padding:3px; background:#fff; border:1px solid #000}
+	.image {margin:0 5px 5px 5px}
+	.image.fl {margin-left:0}
+	.image.fr {margin-right:0}
+	.chapters {width:200px; float:right}
+	.gallery {background:#eee; padding:.7em .7em .7em .7em; margin:0 0 1em 0}
+	.question {background:#eee; margin:0 0 .7em 0; padding:.5em}
+	.question p {margin:0; padding:0}
+	.question p, .question ul {margin-bottom:.35em}
+	.info {background:#aaa; margin:0 0 0 0; padding:.3em; color:#fff}
+	.title .ico {margin:3px 5px 0 0}
+	.nodt dt { display: none;}
+
+/* menu */
+	.menu li {background:none}
+	.menu ul {display:block; width:100%; list-style: none;}
+	.menu ul *, .menu ul {cursor:pointer; list-style:none; margin:0; padding:0}
+	.menu ul li {float:left; display:block}
+	.menu ul li a {display:block}
+
+}
+@media print {
+	.np, .noprint {display:none}
+}
